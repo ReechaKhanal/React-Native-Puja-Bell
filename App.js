@@ -83,11 +83,11 @@ export default class MyComponent extends React.Component {
       <ImageBackground source={require('./background.jpg')} style={styles.image}>
           <View style={styles.container}>
             <Text style={styles.titleText}>
-              Welcome to Your Puja Bell 2.0
+              Welcome to Your Puja Bell
             </Text>
           </View>
         <Animated.View style={{ alignSelf: 'center', transform: [{ rotate: rotation }] }}>
-          <Icon name="bell" style={{ fontSize: 400, height:700, color:"#D4AF37", backgroundColor:"transparent"}}/>
+          <Icon name="bell" style={{ fontSize: 400, height:500, color:"#D4AF37", backgroundColor:"transparent"}}/>
         </Animated.View>
       </ImageBackground>
     );
@@ -97,13 +97,14 @@ const styles = StyleSheet.create({
   image: {
     flex:1,
     resizeMode:"cover",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   titleText: {
-    fontSize: 22,
+    fontSize: 30,
     textAlign: 'center',
     fontWeight: 'bold',
     color: '#a30e03',
+    paddingVertical: 50,
   },
   buttonPlay: {
     fontSize: 16,
