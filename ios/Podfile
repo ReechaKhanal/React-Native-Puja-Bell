@@ -15,7 +15,8 @@ target 'pujabell' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  pod 'react-native-shake', :path => '../node_modules/react-native-shake'
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
   target 'pujabellTests' do
     inherit! :complete

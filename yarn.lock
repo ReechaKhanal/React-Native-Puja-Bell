@@ -2538,7 +2538,7 @@
     "has" "^1.0.3"
     "side-channel" "^1.0.2"
 
-"invariant@^2.2.4", "invariant@^2.2.x":
+"invariant@^2.2.2", "invariant@^2.2.4":
   "version" "2.2.4"
   dependencies:
     "loose-envify" "^1.0.0"
@@ -4213,17 +4213,22 @@
 "react-is@^16.12.0", "react-is@^16.8.1", "react-is@^16.8.4", "react-is@^16.8.6":
   "version" "16.13.1"
 
-"react-native-shake@^3.5.0":
-  "integrity" "sha512-Sf3xFybq6Ps0eq4K5auGgSHQihKn+ixLhikIerhYbB3HhVeB38Un6vei7k3ugMWxcUCUG7kbVEIn3a2g9afkpA=="
-  "resolved" "https://registry.npmjs.org/react-native-shake/-/react-native-shake-3.5.0.tgz"
-  "version" "3.5.0"
+"react-native-shake-event@^4.0.1":
+  "integrity" "sha512-J3kFUzmQmuk8E+bn5O4mdxcAMWZ+MItgVpNExupc37iXV7GyfxNYCfQ7eHA1ZtF6KE8NCWMiHIIVH4DDCFF6PA=="
+  "resolved" "https://registry.npmjs.org/react-native-shake-event/-/react-native-shake-event-4.0.1.tgz"
+  "version" "4.0.1"
   dependencies:
-    "invariant" "^2.2.x"
+    "invariant" "^2.2.2"
 
 "react-native-sound@^0.11.0":
   "integrity" "sha512-4bGAZfni6E2L695NQjOZwNLBQGXgBGYC4Sy+h99K5h0HqNZjCqR0+aLel+ezASxEJDpaH83gylNObXpiqJgdwg=="
   "resolved" "https://registry.npmjs.org/react-native-sound/-/react-native-sound-0.11.0.tgz"
   "version" "0.11.0"
+
+"react-native-splash-screen@^3.2.0":
+  "integrity" "sha512-Ls9qiNZzW/OLFoI25wfjjAcrf2DZ975hn2vr6U9gyuxi2nooVbzQeFoQS5vQcbCt9QX5NY8ASEEAtlLdIa6KVg=="
+  "resolved" "https://registry.npmjs.org/react-native-splash-screen/-/react-native-splash-screen-3.2.0.tgz"
+  "version" "3.2.0"
 
 "react-native-vector-icons@^7.1.0":
   "integrity" "sha512-V2a1zJ4i+kS8O4j183gIwX14St9AxxXabxwYpFBgRhvr2NDXyFcjHDEAgrOYYlt2W57e20aN1tBDU/I+wn9WtQ=="
@@ -4239,7 +4244,7 @@
     "prop-types" "^15.7.2"
     "yargs" "^15.0.2"
 
-"react-native@>=0.62.0-rc.0 <0.64.0", "react-native@>=0.8.0", "react-native@0.63.3":
+"react-native@>=0.57.0", "react-native@>=0.62.0-rc.0 <0.64.0", "react-native@>=0.8.0", "react-native@0.63.3":
   "version" "0.63.3"
   dependencies:
     "@babel/runtime" "^7.0.0"

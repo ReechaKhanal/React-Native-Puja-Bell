@@ -1,9 +1,11 @@
-import RNShake from 'react-native-shake';
+import RNShakeEvent from 'react-native-shake-event';
 import React, { Component, PropTypes } from 'react';
-import { ImageBackground, Image, StyleSheet, Text, View, SafeAreaView, Animated} from "react-native";
+import { ImageBackground, Image, StyleSheet, Text, View, SafeAreaView, Animated, DeviceEventEmitter, NativeModules} from "react-native";
 import Sound from 'react-native-sound';
 import Icon from 'react-native-vector-icons/FontAwesome'; // and this
-//import appSounds from './main/main.js';
+import invariant from 'invariant';
+import SplashScreen from 'react-native-splash-screen';
+
 var appSounds;
 export default class MyComponent extends React.Component {
     
@@ -61,14 +63,15 @@ export default class MyComponent extends React.Component {
       ]).start();
     //).start();
   }
-  componentWillMount() {    
-    RNShake.addEventListener('ShakeEvent', () => {
+  componentWillMount() { 
+    SplashScreen.hide()   
+    RNShakeEvent.addEventListener('shake', () => {
       { this.playSound(); this.startAnimation(); }
       console.log('Sound');
     });
   }
   componentWillUnmount() {
-    RNShake.removeEventListener('ShakeEvent');
+    RNShakeEvent.removeEventListener('shake');
   }
   render () {
     const rotation = this.state.amin.interpolate({
