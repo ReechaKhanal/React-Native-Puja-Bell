@@ -6,5 +6,5 @@ A Bell app that works on shake gesture.
 Click on the Link Below to watch a demo of the app:
 [![Puja Bell Application Demo Video]](https://youtu.be/PtLw6I0II68)
 
-[!Bell_GIF.gif]
+![](Bell_GIF.gif)
 
