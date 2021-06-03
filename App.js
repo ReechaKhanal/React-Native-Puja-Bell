@@ -80,7 +80,7 @@ export default class MyComponent extends React.Component {
     });
 
     return(
-      <ImageBackground source={require('./background.jpg')} style={styles.image}>
+      <ImageBackground source={require('./images/background.jpg')} style={styles.image}>
         <Animated.View style={{ alignSelf: 'center', transform: [{ rotate: rotation }] }}>
           <Icon name="bell" style={{ fontSize: 400, height:500, color:"#D4AF37", backgroundColor:"transparent"}}/>
         </Animated.View>
