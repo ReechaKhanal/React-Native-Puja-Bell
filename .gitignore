@@ -1,16 +1,3 @@
-.buckconfig
-.eslintrc
-.flowconfig
-.gitattributes
-.prettierrc
-.watchmanconfig
-babel.config
-metro.config
-.package-lock
-yarn.lock
-your_key_name.keystore
-__tests__/
-
 # OSX
 #
 .DS_Store
